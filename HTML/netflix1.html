@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix</title>
+    <link rel="stylesheet" href="netflix.css">
 </head>
 <body>
     <div class="upper-parent">
         <div class="leftside">
-            <h1>NETFLIX</h1> 
+            <h1 class="Netflix">NETFLIX</h1> 
         </div>
         <div class="rightside">
             <div class="buttons">
                 <button>Language</button>
-                <button>Sign In</button>
+                <button class="Signin">Sign In</button>
             </div>
         </div>
     </div>
@@ -30,7 +31,7 @@
             </div>
             <div class="email-getstarted-buttons">
                 <input type="email" placeholder="Email address" style="width: 500px; height: 50px;">
-                <button style="width: 100px; height: 50px;" >Get Started</button>
+                <button style="width: 100px; height: 50px;" class="Getstarted" >Get Started</button>
             </div>
         </div>
     </div>
@@ -68,26 +69,26 @@
     </div>
 
     <div class="l3">
-        <h2>Frequently Asked Questions</h2>
+        <h2 class="FAQ">Frequently Asked Questions</h2>
         <div class="question">
             <div class="box1">
-                <h3>What is Netflix?</h3>
+                <h3 class="Questions">What is Netflix?</h3>
                 <h1> + </h1>
             </div>
             <div class="box1">
-                <h3>How much does Netflix cost?</h3>
+                <h3 class="Questions">How much does Netflix cost?</h3>
                 <h1> + </h1>
             </div>
             <div class="box1">
-                <h3>Where can I watch?</h3>
+                <h3 class="Questions">Where can I watch?</h3>
                 <h1> + </h1>
             </div>
             <div class="box1">
-                <h3>How do I cancel?</h3>
+                <h3 class="Questions">How do I cancel?</h3>
                 <h1> + </h1>
             </div>
             <div class="box1">
-                <h3>Is Netflix good for kids?</h3>
+                <h3 class="Questions">Is Netflix good for kids?</h3>
                 <h1> + </h1>
             </div>
         </div>
@@ -108,27 +109,35 @@
             <h4>Questions? Call 000-800-040-1843</h4>
             <div class="box4">
                 <div class="box5">
-                    <nav>FAQ</nav>
-                    <nav>Investor Relations</nav>
-                    <nav>Privacy</nav>
-                    <nav>Speed </nav>
+                    <nav>
+                        <a href="" style="text-decoration: none;">FAQ</a>
+                        <a href="" style="text-decoration: none;">Investor Relations</a>
+                        <a href="" style="text-decoration: none;">Privacy</a>
+                        <a href="" style="text-decoration: none;">Speed</a>
+                    </nav>
                 </div>
                 <div class="box5">
-                    <nav>Help Centre</nav>
-                    <nav>Jobs</nav>
-                    <nav>Cookie Preferences</nav>
-                    <nav>Legal Notices</nav>
+                    <nav>
+                        <a href="" style="text-decoration: none;">Help Centre</a>
+                        <a href="" style="text-decoration: none;">Jobs</a>
+                        <a href="" style="text-decoration: none;">Cookie Preferences</a>
+                        <a href="" style="text-decoration: none;">Legal Notices</a>
+                    </nav>
                 </div>
                 <div class="box5">
-                    <nav>Accounts</nav>
-                    <nav>Ways to Watch</nav>
-                    <nav>Corporate Information</nav>
-                    <nav>Only on Netflix</nav>
+                    <nav>
+                        <a href="" style="text-decoration: none;">Accounts</a>
+                        <a href="" style="text-decoration: none;">Ways to Watch</a>
+                        <a href="" style="text-decoration: none;">Corporate Information</a>
+                        <a href="" style="text-decoration: none;">Only on Netflix</a>
+                    </nav>
                 </div>
                 <div class="box5">
-                    <nav>Media Centre</nav>
-                    <nav>Terms of Use</nav>
-                    <nav>Contact Us</nav>
+                    <nav>
+                        <a href="" style="text-decoration: none;">Media Centre</a>
+                        <a href="" style="text-decoration: none;">Terms of Use</a>
+                        <a href="" style="text-decoration: none;">Contact Us</a>
+                    </nav>
                 </div>
             </div>
 
@@ -143,7 +152,7 @@
     </div>
 </body>
 </html>
-<style>
+<!-- <style>
     .upper-parent{
         /* border: 2px solid black; */
         display: flex;
@@ -300,4 +309,11 @@
         margin-top: 10px;
         display: flex;
     }
-</style>
+    nav{
+        /* border: 2px solid black; */
+        padding: 10px;
+    }
+    .Netflix{
+        color: red;
+    }
+</style> -->

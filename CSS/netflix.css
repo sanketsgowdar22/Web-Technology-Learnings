@@ -1,0 +1,179 @@
+    *{
+        background-color: rgb(62, 60, 60);
+    }
+    
+    .upper-parent{
+        /* border: 2px solid black; */
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        height: 20vh;
+    }
+    .leftside{
+        /* border: 2px solid black; */
+        display: flex;
+        justify-content: center;    
+        align-items: center;
+    }
+    .rightside{
+        /* border: 2px solid black; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+    .buttons{
+        /* display: flex; */
+        /* gap: 10px; */
+        justify-content: center;
+        align-items: center;
+    }
+    .lower-parent{
+        /* border: 2px solid black; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        gap: 10px;
+        height: 80vh;
+        margin-top: 10px;
+    }
+    .upper-content{
+        /* border: 2px solid black; */
+        /* display: flex; */
+        justify-content: center; /*to move the items from left to right horizontally*/
+        align-items: center; /*to move the items from upper to lower vertically*/
+        padding: 10px;
+    }
+    .lower-content{
+        /* border: 2px solid black; */
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        gap: 10px;
+    }
+    .ready-to-watch{
+        /* border: 2px solid black; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+    .email-getstarted-buttons{
+        /* border: 2px solid black; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        gap: 10px;
+        margin-top: 10px;
+    }
+    .l1{
+        /* border: 2px solid black; */
+        padding: 10px;
+        margin-top: 10px;
+        display: flex;
+        gap: 10px;
+        justify-content: space-between;
+    }
+    .l2{
+        /* border: 2px solid black; */
+        padding: 10px;
+        margin-top: 10px;
+        /* display: flex; */
+        gap: 10px;
+        /* justify-content: space-between; */
+    }
+    .more{
+        /* border: 2px solid black; */
+        padding: 10px;
+    }
+    .box{
+        /* border: 2px solid black; */
+        padding: 10px;
+        margin-top: 10px;
+        display: flex;
+        gap: 10px;
+        /* justify-content: space-evenly; */
+    }
+    .reason{
+        border: 2px solid black;
+        padding: 10px;
+        gap: 10px;
+        height: 200px;
+        width: 400px;
+        /* justify-content: space-between; */
+    }
+    .l3{
+        /* border: 2px solid black; */
+        padding: 10px;
+        margin-top: 10px;
+    }
+    .question{
+        /* border: 2px solid black; */
+        padding: 10px;
+        margin-top: 5px;
+        /* display: flex; */
+        gap: 5px;
+        justify-content: space-between;
+    }
+    .box1{
+        border: 2px solid black;
+        padding: 10px;
+        margin-top: 10px;
+        display: flex;
+        gap: 10px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .l4{
+        /* border: 2px solid black; */
+        padding: 10px;
+        margin-top: 10px;
+    }
+    .box3{
+        /* border: 2px solid black; */
+        padding: 10px;
+        margin-top: 10px;
+    }
+    .box4{
+        /* border: 2px solid black; */
+        padding: 10px;
+        margin-top: 10px;
+        gap: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box5{
+        /* border: 2px solid black; */
+        padding: 10px;
+        height: 100px;
+        width: 500px;
+    }
+    .btns{
+        /* border: 2px solid black; */
+        padding: 10px;
+        margin-top: 10px;
+        display: flex;
+    }
+    nav{
+        /* border: 2px solid black; */
+        padding: 10px;
+    }
+    .Netflix{
+        color: red;
+    }
+    .Signin{
+        background-color: red;
+        color: white;
+    }
+    .Getstarted{
+        background-color: red;
+        color:white;
+    }
+    .FAQ{
+        background-color: rgb(43, 41, 41);
+        color: white;
+    }
